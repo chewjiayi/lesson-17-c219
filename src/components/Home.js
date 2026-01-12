@@ -1,4 +1,4 @@
-import featImg from "../assets/img-main.png";
+import featImg from "../assets/img-main.jpg";
 
 export default function Home({ title }) {
   return (
@@ -11,15 +11,20 @@ export default function Home({ title }) {
 
       <h1>{title}</h1>
       <p>
-       
+        This is a fictitious company and conference created by{" "}
         <a
           href="https://www.linkedin.com/feed/"
           target="_blank"
           rel="noreferrer noopener"
         >
-         
+          LinkedIn Corporation, or its affiliates
         </a>
-        School of Infocomm (SOI) provides industry-relevant IT education focused on software development, digital design, and emerging technologies, preparing students for the evolving digital economy through hands-on, project-based learning.
+        , solely for the creation and development of educational training
+        materials. Any resemblance to real products or services is purely
+        coincidental. Information provided about the products or services is
+        also fictitious and should not be construed as representative of actual
+        products or services on the market in a similar product or service
+        category.
       </p>
     </div>
   );
