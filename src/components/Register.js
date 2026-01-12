@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 export default function Register() {
   const emailRef = useRef(null);
   const nameRef = useRef(null);
+  const courseRef = useRef(null);
   const navigate = useNavigate();
 
   function handleSubmit(event) {
@@ -19,11 +20,9 @@ export default function Register() {
 
   return (
     <div className="container">
-      <h1>Register for Red30 Tech</h1>
+      <h1>Registration</h1>
       <p>
-        Make sure to grab your spot for this year's conference! We love
-        technology and consistently work towards being the premier provider of
-        technology solutions and events that connect the world.
+        Please register the course you are interested!
       </p>
 
       <form onSubmit={handleSubmit}>
@@ -35,6 +34,11 @@ export default function Register() {
         <label>
           Email:
           <input type="email" ref={emailRef} required />
+        </label>
+
+        <label>
+          Course:
+          <input type="text" ref={courseRef} required />
         </label>
 
         <input type="submit" value="Submit" />
