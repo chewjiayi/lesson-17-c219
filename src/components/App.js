@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="app">
       <Header />
-    
+  
       <Routes>
         <Route path="/" element={<Home title="Welcome to Red30 Tech" />} />
         <Route path="about" element={<About />} />
@@ -24,7 +24,7 @@ function App() {
       </Routes>
 
       <footer className="container">
-        &copy;2022 | <a href="https://red30tech.com/">Red30 Tech</a>
+        &copy;2025 | <a href="https://red30tech.com/">Red30 Tech</a>
       </footer>
     </div>
   );
