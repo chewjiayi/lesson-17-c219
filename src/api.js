@@ -206,7 +206,7 @@ const categories = [
     id: "virtual-and-augmented-reality",
     sessions: [
       {
-        name: "Augmented Real(ity) Estate",
+        name: "Augmented Reality Estate",
         id: "ar-estate",
         desc: "Imagine if your company is moving you to a state too far away to spend time looking for a new place to live. Wouldn't it be nice to be able to meet an agent, walk through a house, open doors, go up steps, and check out the neighborhood from the comfort of your couch? Check out the latest innovations in augmented reality in the real estate market, and discuss its economic benefits.",
         speaker: {
